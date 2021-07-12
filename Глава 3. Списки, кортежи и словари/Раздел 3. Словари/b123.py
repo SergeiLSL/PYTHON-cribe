@@ -1,12 +1,13 @@
-import json
+import random
 
-data = json.load(open("data.json"))
+puzzles = {'Загадка 1': 'Ответ1',
+           'Загадка 2': 'Ответ2',
+           'Загадка 3': 'Ответ3',
+           'Загадка 4': 'Ответ4',
+           'Загадка 5': 'Ответ5'
+           }
 
-
-def retrive_definition(word):
-    return data[word]
-
-
-word_user = input("Enter a word: ")
-
-print(retrive_definition(word_user))
+s_key = [*puzzles]
+print(s_key)
+r = random.choice(s_key)
+print(r)
