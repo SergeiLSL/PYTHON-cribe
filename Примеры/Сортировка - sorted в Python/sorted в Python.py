@@ -1,4 +1,6 @@
 """
+Все о сортировке
+
 https://pythonru.com/osnovy/vozmozhnosti-i-primery-funkcii-sorted-v-python
 Выводы
 При сортировке списка объектов класса параметр key является обязательным.
