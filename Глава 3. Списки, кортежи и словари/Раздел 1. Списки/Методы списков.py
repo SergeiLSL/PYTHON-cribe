@@ -1,8 +1,11 @@
+s = "м_ма"
+print(s.isalpha())
+
 
 # list.append(x) Добавляет элемент в конец списка
 list_a = [1, 2, 3, 'asd']
 print(list_a)  # [1, 2, 3, 'asd']
-list.append(35)
+# list.append(35)
 print(list_a)  # [1, 2, 3, 'asd', 35]
 
 """
